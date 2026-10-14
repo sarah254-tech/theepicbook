@@ -17,6 +17,22 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.get("/health", async (req, res) => {
+  try {
+    await db.sequelize.authenticate();
+    res.status(200).json({
+      status: "healthy",
+      database: "connected"
+    });
+  } catch (error) {
+    res.status(503).json({
+      status: "unhealthy",
+      database: "disconnected"
+    });
+  }
+});
+
+
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 

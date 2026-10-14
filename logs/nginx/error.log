@@ -1,0 +1,85 @@
+2026/10/13 13:09:23 [notice] 1#1: using the "epoll" event method
+2026/10/13 13:09:23 [notice] 1#1: nginx/1.31.6
+2026/10/13 13:09:23 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/10/13 13:09:23 [notice] 1#1: OS: Linux 6.17.0-1022-azure
+2026/10/13 13:09:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/13 13:09:23 [notice] 1#1: start worker processes
+2026/10/13 13:09:23 [notice] 1#1: start worker process 29
+2026/10/13 13:09:23 [notice] 1#1: start worker process 30
+2026/10/13 13:14:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/10/13 13:14:58 [notice] 29#29: gracefully shutting down
+2026/10/13 13:14:58 [notice] 29#29: exiting
+2026/10/13 13:14:58 [notice] 29#29: exit
+2026/10/13 13:14:58 [notice] 30#30: gracefully shutting down
+2026/10/13 13:14:58 [notice] 30#30: exiting
+2026/10/13 13:14:58 [notice] 30#30: exit
+2026/10/13 13:14:58 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2026/10/13 13:14:58 [notice] 1#1: worker process 29 exited with code 0
+2026/10/13 13:14:58 [notice] 1#1: signal 29 (SIGIO) received
+2026/10/13 13:14:58 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2026/10/13 13:14:58 [notice] 1#1: worker process 30 exited with code 0
+2026/10/13 13:14:58 [notice] 1#1: exit
+2026/10/13 13:15:01 [notice] 1#1: using the "epoll" event method
+2026/10/13 13:15:01 [notice] 1#1: nginx/1.31.6
+2026/10/13 13:15:01 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/10/13 13:15:01 [notice] 1#1: OS: Linux 6.17.0-1022-azure
+2026/10/13 13:15:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/13 13:15:01 [notice] 1#1: start worker processes
+2026/10/13 13:15:01 [notice] 1#1: start worker process 29
+2026/10/13 13:15:01 [notice] 1#1: start worker process 30
+2026/10/13 13:18:51 [warn] 30#30: *38 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/css/materialize.css HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/css/materialize.css", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:51 [warn] 30#30: *37 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/css/materialize.min.css HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/css/materialize.min.css", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:51 [warn] 30#30: *44 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/js/materialize.js HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/js/materialize.js", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:52 [warn] 30#30: *46 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/img/0.png HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/img/0.png", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:52 [warn] 30#30: *38 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/00/0000000005 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/img/2.png HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/img/2.png", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:52 [warn] 30#30: *44 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/6/00/0000000006 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/img/4.png HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/img/4.png", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:52 [warn] 30#30: *37 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/7/00/0000000007 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/img/3.png HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/img/3.png", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:52 [warn] 30#30: *42 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/8/00/0000000008 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/img/6.png HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/img/6.png", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 13:18:53 [warn] 30#30: *48 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/9/00/0000000009 while reading upstream, client: 179.64.71.234, server: _, request: "GET /assets/img/8.png HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/img/8.png", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/13 19:42:31 [warn] 30#30: *3489 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/0/01/0000000010 while reading upstream, client: 66.249.74.227, server: _, request: "GET /assets/js/materialize.js HTTP/1.1", upstream: "http://172.22.0.3:8080/assets/js/materialize.js", host: "40.121.8.188", referrer: "http://40.121.8.188/"
+2026/10/14 09:21:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/10/14 09:21:29 [notice] 29#29: gracefully shutting down
+2026/10/14 09:21:29 [notice] 29#29: exiting
+2026/10/14 09:21:29 [notice] 29#29: exit
+2026/10/14 09:21:29 [notice] 30#30: gracefully shutting down
+2026/10/14 09:21:29 [notice] 30#30: exiting
+2026/10/14 09:21:29 [notice] 30#30: exit
+2026/10/14 09:21:29 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2026/10/14 09:21:29 [notice] 1#1: worker process 29 exited with code 0
+2026/10/14 09:21:29 [notice] 1#1: signal 29 (SIGIO) received
+2026/10/14 09:21:29 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2026/10/14 09:21:29 [notice] 1#1: worker process 30 exited with code 0
+2026/10/14 09:21:29 [notice] 1#1: exit
+2026/10/14 09:21:31 [notice] 1#1: using the "epoll" event method
+2026/10/14 09:21:31 [notice] 1#1: nginx/1.31.6
+2026/10/14 09:21:31 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/10/14 09:21:31 [notice] 1#1: OS: Linux 6.17.0-1022-azure
+2026/10/14 09:21:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/14 09:21:31 [notice] 1#1: start worker processes
+2026/10/14 09:21:31 [notice] 1#1: start worker process 29
+2026/10/14 09:21:31 [notice] 1#1: start worker process 30
+2026/10/14 09:27:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/10/14 09:27:54 [notice] 29#29: gracefully shutting down
+2026/10/14 09:27:54 [notice] 29#29: exiting
+2026/10/14 09:27:54 [notice] 29#29: exit
+2026/10/14 09:27:54 [notice] 30#30: gracefully shutting down
+2026/10/14 09:27:54 [notice] 30#30: exiting
+2026/10/14 09:27:54 [notice] 30#30: exit
+2026/10/14 09:27:54 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2026/10/14 09:27:54 [notice] 1#1: worker process 29 exited with code 0
+2026/10/14 09:27:54 [notice] 1#1: worker process 30 exited with code 0
+2026/10/14 09:27:54 [notice] 1#1: exit
+2026/10/14 09:27:54 [notice] 1#1: using the "epoll" event method
+2026/10/14 09:27:54 [notice] 1#1: nginx/1.31.6
+2026/10/14 09:27:54 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+2026/10/14 09:27:54 [notice] 1#1: OS: Linux 6.17.0-1022-azure
+2026/10/14 09:27:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2026/10/14 09:27:54 [notice] 1#1: start worker processes
+2026/10/14 09:27:54 [notice] 1#1: start worker process 29
+2026/10/14 09:27:54 [notice] 1#1: start worker process 30
+2026/10/14 09:52:01 [error] 29#29: *282 connect() failed (113: Host is unreachable) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /health HTTP/1.1", upstream: "http://172.22.0.3:8080/health", host: "127.0.0.1"
+2026/10/14 09:52:01 [notice] 1#1: signal 17 (SIGCHLD) received from 717
+2026/10/14 09:52:01 [notice] 1#1: unknown process 717 exited with code 1
+2026/10/14 09:52:06 [error] 29#29: *278 connect() failed (113: Host is unreachable) while connecting to upstream, client: 127.0.0.1, server: _, request: "GET /health HTTP/1.1", upstream: "http://172.22.0.3:8080/health", host: "127.0.0.1"
+2026/10/14 09:52:06 [notice] 1#1: signal 17 (SIGCHLD) received from 710
+2026/10/14 09:52:06 [notice] 1#1: unknown process 710 exited with code 1
