@@ -10,3 +10,12 @@ node_modules
 node_modules/
 coverage/
 npm-debug.log*
+
+# Runtime logs
+logs/
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
